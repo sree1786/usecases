@@ -1,4 +1,4 @@
-<p align="center"><img src="images/devops_exercises.png"/></p>
+<p align="center"><img src="images/go.png"/></p>
 
 :information_source: &nbsp;This repo contains Huge UseCases on various Cloud,DevOps,Infrastructure and Solutions.
 
