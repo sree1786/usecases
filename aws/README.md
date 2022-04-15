@@ -16,7 +16,7 @@
 <center>
 <table>
   <tr>
-    <td align="center"><a href="#ec2"><img src="usecases/images/aws/services/Arch_Compute/Arch_Amazon-EC2_16.png" width="110px;" height="75px;" alt="EC2"/><br /><b>EC2</b></a></td>
+    <td align="center"><a href="#ec2"><img src="usecases/images/aws/ec2.png" width="110px;" height="75px;" alt="EC2"/><br /><b>EC2</b></a></td>
     <td align="center"><a href="#s3"><img src="images/aws.png" width="75px;" height="75px;" alt="S3"/><br /><b>S3</b></a></td>
     <td align="center"><a href="#CloudFront"><img src="images/aws.png" width="75px;" height="75px;" alt="CloudFront"/><br /><b>CloudFront</b></a></td>
 	<td align="center"><a href="#VPC"><img src="images/aws.png" width="75px;" height="75px;" alt="VPC"/><br /><b>VPC</b></a></td>
