@@ -17,12 +17,10 @@
 <table>
   <tr>
     <td align="center"><a href="#ec2"><img src="/images/aws/ec2.png" width="110px;" height="75px;" alt="EC2"/><br /><b>EC2</b></a></td>
-    <td align="center"><a href="#s3"><img src="images/aws.png" width="75px;" height="75px;" alt="S3"/><br /><b>S3</b></a></td>
-    <td align="center"><a href="#CloudFront"><img src="images/aws.png" width="75px;" height="75px;" alt="CloudFront"/><br /><b>CloudFront</b></a></td>
-	<td align="center"><a href="#VPC"><img src="images/aws.png" width="75px;" height="75px;" alt="VPC"/><br /><b>VPC</b></a></td>
-    <td align="center"><a href="#Rout53"><img src="images/aws.png" width="80px;" height="75px;" alt="Route53"/><br /><b>Route53</b></a></td>
-    <td align="center"><a href="#APIGateway"><img src="images/aws.png" width="75px;" height="75px;" alt="openstack"/><br /><b>APIGateway</b></a></td>
-    <td align="center"><a href="#Lambda"><img src="images/aws.png" width="75px;" height="75px;" alt="security"/><br /><b>Lambda</b></a></td>
+    <td align="center"><a href="#s3"><img src="images/aws/s3.png" width="75px;" height="75px;" alt="S3"/><br /><b>S3</b></a></td>
+    <td align="center"><a href="#CloudFront"><img src="images/aws/cdn.png" width="75px;" height="75px;" alt="CloudFront"/><br /><b>CloudFront</b></a></td>
+	<td align="center"><a href="#VPC"><img src="images/aws/vpc.png" width="75px;" height="75px;" alt="VPC"/><br /><b>VPC</b></a></td>
+    <td align="center"><a href="#Rout53"><img src="images/route53.png" width="80px;" height="75px;" alt="Route53"/><br /><b>Route53</b></a></td>
   </tr>
 </table>
 </center>
