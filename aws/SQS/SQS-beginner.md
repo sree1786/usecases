@@ -1,11 +1,16 @@
-## AWS EKS – Elastic Kubernetes Service - Beginner - Usecases
+## AWS SQS – Simple Queue Service - Beginner - Usecases
 
-[![Watch the video](./ECS-vs-EKS-.jpg)](https://linkedin.com/in/vijaystack)
+[![Watch the video](./SQS-Monitoring.jpg)](https://linkedin.com/in/vijaystack)
 
-- Amazon EKS is a managed Kubernetes service that makes it easy for you to run Kubernetes on AWS and on-premises. EKS lets you run your Kubernetes applications on both Amazon EC2 and AWS Fargate.
 
-- EKS runs the Kubernetes control plane across multiple Availability Zones, automatically detects and replaces unhealthy control plane nodes, and provides on-demand, zero downtime upgrades and patching. EKS offers a 99.95% uptime SLA. At the same time, the EKS console provides observability of your Kubernetes clusters so you can identify and resolve issues faster.
+- Amazon SQS is a fully managed event-queuing service that enables you to decouple and scale microservices and serverless applications.
 
-- With EKS, you have the advantage that any application running on EKS is compatible with one running in your existing Kubernetes environment. You can migrate to EKS without applying any changes to code.
+- Using SQS, you can send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available. If no workers pull jobs from SQS, the messages stay in the queue.
+
+- SQS offers two types of event queues. Standard queues offer maximum throughput, with best-effort ordering and at-least-once delivery. SQS FIFO queues offer event processing in the exact order that events are sent, with exactly once processing guarantee, although it comes with a throughput constraint.
+
+- Since it is a fully managed message queuing service, SQS eliminates the complexity and overhead associated with managing and operating message-oriented middleware and empowers developers to focus on their core tasks.
+
+- You can scale the amount of traffic you send to Amazon SQS up or down without any configuration. Amazon SQS also provides extremely high message durability, giving you and your stakeholders added confidence.
 
 ## Use Case 1 :

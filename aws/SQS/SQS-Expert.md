@@ -9,4 +9,8 @@
 
 - SQS offers two types of event queues. Standard queues offer maximum throughput, with best-effort ordering and at-least-once delivery. SQS FIFO queues offer event processing in the exact order that events are sent, with exactly once processing guarantee, although it comes with a throughput constraint.
 
+- Since it is a fully managed message queuing service, SQS eliminates the complexity and overhead associated with managing and operating message-oriented middleware and empowers developers to focus on their core tasks.
+
+- You can scale the amount of traffic you send to Amazon SQS up or down without any configuration. Amazon SQS also provides extremely high message durability, giving you and your stakeholders added confidence.
+
 ## Use Case 1 :
