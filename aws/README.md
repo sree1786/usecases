@@ -1,11 +1,8 @@
-<p align="center"><img src="images/devops_exercises.png"/></p>
+Disclaimer : The views expressed and the content shared are those of the author and dont reflext the views of the author's employer or cloudnloud platform
 
-:information_source: &nbsp;This repo contains Huge UseCases on various Cloud,DevOps,Infrastructure and Solutions.
+we are not making any $$$ from it.Just helping community to share the knowledge.
 
-:bar_chart: &nbsp;There are currently **50000** UseCases
-
-
-:warning: &nbsp;You can use these for preparing for an interview but most of the Usecases don't represent an actual interview. Please read [FAQ page](faq.md) for more details
+We collate the information in this repository through students submissions , if anyone finds the exact content elsewhere and from other authors, please reach out to us on info@cloudnloud.com and we will give appropriate credits in our content.
 
 
 ****
