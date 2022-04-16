@@ -10,5 +10,13 @@
 
 - With AWS Fargate, you don’t have to provision, configure, or scale groups of virtual machines on your own to run containers. You also don’t need to choose server types, decide when to scale your node groups, or optimize cluster packing. You can control which pods start on Fargate and how they run with Fargate profiles.
 
+
 ## Use Case 1 :
+
+Deploy Docker Containers
+
+Amazon Elastic Container Service (Amazon ECS) is the service you use to run Docker applications on a scalable cluster. In this tutorial, you will learn how to run a Docker-enabled sample application on an Amazon ECS cluster behind a load balancer, test the sample application, and delete your resources to avoid charges.
+
+
+Once You Ready - Start your hands on - https://www.amazonaws.cn/en/getting-started/tutorials/deploy-docker-containers/
 

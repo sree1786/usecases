@@ -22,3 +22,12 @@ If you need heavy computation and GPU power for deep learning/ machine learning,
 ## Use Case 4 :
 
 Create EC2 Instance.Create new keypair.Open only port 22 for your current laptop IP.Login using Putty or mobaxtreme.Share the keypair to your friend and ask him to login from his home/from his laptop.Your friend cant be able to login ?
+
+
+## Use Case 5 :
+Launch a Windows Virtual Machine
+
+
+In this tutorial, you will learn how to launch, configure, and connect to a Windows Virtual Machine using Amazon Elastic Compute Cloud (EC2).  Amazon EC2 is the web service you use to create and run virtual machines in the cloud (we call these virtual machines 'instances'). 
+
+Once You Ready - Start your hands on - https://www.amazonaws.cn/en/getting-started/tutorials/launch-windows-vm/
