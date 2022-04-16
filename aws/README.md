@@ -14,6 +14,7 @@
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <center>
+
 # Beginner
 
 <table>
