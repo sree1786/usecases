@@ -31,7 +31,7 @@
   <tr>
     <td align="center"><a href="/aws/eks/EKS-beginner.md"><img src="/images/aws/eks.png" width="110px;" height="75px;" alt="EKS"/><br /><b>EKS</b></a></td>
     <td align="center"><a href="/aws/ElasticBeanStalk/ElasticBeanStalk-beginner.md"><img src="/images/aws/elasticbeanstalk.png" width="75px;" height="75px;" alt="ElasticBeanStalk"/><br /><b>ElasticBeanStalk</b></a></td>
-    <td align="center"><a href="/aws/Lambda/Lambda-beginner.md"><img src="/images/aws/Lambda.png" width="75px;" height="75px;" alt="Lambda"/><br /><b>Lambda</b></a></td>
+    <td align="center"><a href="/aws/Lambda/Lambda-beginner.md"><img src="/images/aws/lambda.png" width="75px;" height="75px;" alt="Lambda"/><br /><b>Lambda</b></a></td>
 	<td align="center"><a href="/aws/MachineLearning/MachineLearning-beginner.md"><img src="/images/aws/ml.png" width="75px;" height="75px;" alt="ML"/><br /><b>ML</b></a></td>
     <td align="center"><a href="/aws/MariaDB/MariaDB-beginner.md"><img src="/images/aws/MariaDB.png" width="80px;" height="75px;" alt="MariaDB"/><br /><b>MariaDB</b></a></td>
   </tr>
