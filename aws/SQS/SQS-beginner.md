@@ -1,4 +1,4 @@
-## AWS EKS – Elastic Kubernetes Service - Expert - Usecases
+## AWS EKS – Elastic Kubernetes Service - Beginner - Usecases
 
 [![Watch the video](./ECS-vs-EKS-.jpg)](https://linkedin.com/in/vijaystack)
 
