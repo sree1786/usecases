@@ -20,7 +20,7 @@
 <table>
   <tr>
     <td align="center"><a href="/aws/CloudFront/CloudFront-beginner.md"><img src="/images/aws/cdn.png" width="110px;" height="75px;" alt="Cloudfront"/><br /><b>Cloudfront</b></a></td>
-    <td align="center"><a href="/aws/devops/DevOps-beginner.md"><img src="/images/aws/aws-devops.jpg" width="75px;" height="75px;" alt="DevOps"/><br /><b>DevOps</b></a></td>
+    <td align="center"><a href="/aws/DevOps/DevOps-beginner.md"><img src="/images/aws/aws-devops.jpg" width="75px;" height="75px;" alt="DevOps"/><br /><b>DevOps</b></a></td>
     <td align="center"><a href="/aws/dynamodb/DynamoDB-beginner.md"><img src="/images/aws/dynamodb.jpg" width="75px;" height="75px;" alt="DynamoDB"/><br /><b>DynamoDB</b></a></td>
 	<td align="center"><a href="/aws/ec2/ec2-beginner.md"><img src="/images/aws/ec2.png" width="75px;" height="75px;" alt="EC2"/><br /><b>EC2</b></a></td>
     <td align="center"><a href="/aws/ecs/ECS-beginner.md"><img src="/images/aws/ecs.png" width="80px;" height="75px;" alt="ECS"/><br /><b>ECS</b></a></td>
@@ -42,7 +42,7 @@
 <table>
   <tr>
     <td align="center"><a href="/aws/CloudFront/CloudFront-Intermediate.md"><img src="/images/aws/cdn.png" width="110px;" height="75px;" alt="Cloudfront"/><br /><b>Cloudfront</b></a></td>
-    <td align="center"><a href="/aws/devops/DevOps-intermediate.md"><img src="/images/aws/aws-devops.jpg" width="75px;" height="75px;" alt="DevOps"/><br /><b>DevOps</b></a></td>
+    <td align="center"><a href="/aws/DevOps/DevOps-intermediate.md"><img src="/images/aws/aws-devops.jpg" width="75px;" height="75px;" alt="DevOps"/><br /><b>DevOps</b></a></td>
     <td align="center"><a href="/aws/dynamodb/DynamoDB-intermediate.md"><img src="/images/aws/dynamodb.jpg" width="75px;" height="75px;" alt="DynamoDB"/><br /><b>DynamoDB</b></a></td>
 	<td align="center"><a href="/aws/ec2/ec2-intermediate.md"><img src="/images/aws/ec2.png" width="75px;" height="75px;" alt="EC2"/><br /><b>EC2</b></a></td>
     <td align="center"><a href="/aws/ecs/ECS-intermediate.md"><img src="/images/aws/ecs.png" width="80px;" height="75px;" alt="ECS"/><br /><b>ECS</b></a></td>
