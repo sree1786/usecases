@@ -72,7 +72,7 @@ We collate the information in this repository through students submissions , if 
   <tr>
     <td align="center"><a href="/aws/eks/EKS-expert.md"><img src="/images/aws/eks.png" width="110px;" height="75px;" alt="EKS"/><br /><b>EKS</b></a></td>
     <td align="center"><a href="/aws/ElasticBeanStalk/ElasticBeanStalk-expert.md"><img src="/images/aws/elasticbeanstalk.png" width="75px;" height="75px;" alt="ElasticBeanStalk"/><br /><b>ElasticBeanStalk</b></a></td>
-    <td align="center"><a href="/aws/Lambda/Lambda-expert.md"><img src="/images/aws/lambda.png" width="75px;" height="75px;" alt="Lambda"/><br /><b>Lambda</b></a></td>
+    <td align="center"><a href="/aws/Lambda/Lambda-Expert.md"><img src="/images/aws/lambda.png" width="75px;" height="75px;" alt="Lambda"/><br /><b>Lambda</b></a></td>
 	<td align="center"><a href="/aws/MachineLearning/MachineLearning-expert.md"><img src="/images/aws/ml.png" width="75px;" height="75px;" alt="ML"/><br /><b>ML</b></a></td>
     <td align="center"><a href="/aws/MariaDB/MariaDB-expert.md"><img src="/images/aws/MariaDB.png" width="80px;" height="75px;" alt="MariaDB"/><br /><b>MariaDB</b></a></td>
   </tr>
