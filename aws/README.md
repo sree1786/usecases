@@ -34,6 +34,12 @@ We collate the information in this repository through students submissions , if 
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td align="center"><a href="/aws/vpc/vpc-beginner.md"><img src="/images/aws/vpc.png" width="110px;" height="75px;" alt="VPC"/><br /><b>VPC</b></a></td>
+  </tr>
+</table>
+
 # Intermediate
 
 <table>
@@ -56,6 +62,12 @@ We collate the information in this repository through students submissions , if 
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td align="center"><a href="/aws/vpc/vpc-intermediate.md"><img src="/images/aws/vpc.png" width="110px;" height="75px;" alt="VPC"/><br /><b>VPC</b></a></td>
+  </tr>
+</table>
+
 # Expert
 
 <table>
@@ -75,6 +87,12 @@ We collate the information in this repository through students submissions , if 
     <td align="center"><a href="/aws/Lambda/Lambda-Expert.md"><img src="/images/aws/lambda.png" width="75px;" height="75px;" alt="Lambda"/><br /><b>Lambda</b></a></td>
 	<td align="center"><a href="/aws/MachineLearning/MachineLearning-expert.md"><img src="/images/aws/ml.png" width="75px;" height="75px;" alt="ML"/><br /><b>ML</b></a></td>
     <td align="center"><a href="/aws/MariaDB/MariaDB-expert.md"><img src="/images/aws/MariaDB.png" width="80px;" height="75px;" alt="MariaDB"/><br /><b>MariaDB</b></a></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center"><a href="/aws/vpc/vpc-expert.md"><img src="/images/aws/vpc.png" width="110px;" height="75px;" alt="VPC"/><br /><b>VPC</b></a></td>
   </tr>
 </table>
 
