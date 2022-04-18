@@ -60,7 +60,7 @@ We collate the information in this repository through students submissions , if 
 
 <table>
   <tr>
-    <td align="center"><a href="/aws/cloudfront/CloudFront-expert.md"><img src="/images/aws/cdn.png" width="110px;" height="75px;" alt="Cloudfront"/><br /><b>Cloudfront</b></a></td>
+    <td align="center"><a href="/aws/CloudFront/CloudFront-Expert.md"><img src="/images/aws/cdn.png" width="110px;" height="75px;" alt="Cloudfront"/><br /><b>Cloudfront</b></a></td>
     <td align="center"><a href="/aws/DevOps/DevOps-Expert.md"><img src="/images/aws/aws-devops.jpg" width="75px;" height="75px;" alt="DevOps"/><br /><b>DevOps</b></a></td>
     <td align="center"><a href="/aws/DynamoDB/DynamoDB-Expert.md"><img src="/images/aws/dynamodb.jpg" width="75px;" height="75px;" alt="DynamoDB"/><br /><b>DynamoDB</b></a></td>
 	<td align="center"><a href="/aws/ec2/ec2-expert.md"><img src="/images/aws/ec2.png" width="75px;" height="75px;" alt="EC2"/><br /><b>EC2</b></a></td>
