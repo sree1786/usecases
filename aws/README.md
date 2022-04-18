@@ -64,7 +64,7 @@ We collate the information in this repository through students submissions , if 
 
 <table>
   <tr>
-    <td align="center"><a href="/aws/vpc/vpc-intermediate.md"><img src="/images/aws/vpc.png" width="110px;" height="75px;" alt="VPC"/><br /><b>VPC</b></a></td>
+    <td align="center"><a href="/aws/vpc/vpc-Intermediate.md"><img src="/images/aws/vpc.png" width="110px;" height="75px;" alt="VPC"/><br /><b>VPC</b></a></td>
   </tr>
 </table>
 
@@ -92,7 +92,7 @@ We collate the information in this repository through students submissions , if 
 
 <table>
   <tr>
-    <td align="center"><a href="/aws/vpc/vpc-expert.md"><img src="/images/aws/vpc.png" width="110px;" height="75px;" alt="VPC"/><br /><b>VPC</b></a></td>
+    <td align="center"><a href="/aws/vpc/vpc-Expert.md"><img src="/images/aws/vpc.png" width="110px;" height="75px;" alt="VPC"/><br /><b>VPC</b></a></td>
   </tr>
 </table>
 
