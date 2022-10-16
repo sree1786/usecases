@@ -12,9 +12,9 @@ We collate the information in this repository through students submissions , if 
 <center>
 <table>
   <tr>
-    <td align="center"><a href="/terraform/aws/README.md"><img src="/images/aws.png" width="70px;" height="75px;" alt="AWS" /><br /><b>AWS</b></a></td>
-    <td align="center"><a href="/terraform/azure/README.md"><img src="/images/azure.png" width="70px;" height="75px;" alt="AZURE" /><br /><b>AZURE</b></a></td>
-    <td align="center"><a href="/terraform/Google/README.md"><img src="/images/googlecloud.png" width="70px;" height="75px;" alt="GCP" /><br /><b>GCP</b></a></td>
+    <td align="center"><a href="/terraform/AWS/README.md"><img src="/images/aws.png" width="70px;" height="75px;" alt="AWS" /><br /><b>AWS</b></a></td>
+    <td align="center"><a href="/terraform/AZURE/README.md"><img src="/images/azure.png" width="70px;" height="75px;" alt="AZURE" /><br /><b>AZURE</b></a></td>
+    <td align="center"><a href="/terraform/GCP/README.md"><img src="/images/googlecloud.png" width="70px;" height="75px;" alt="GCP" /><br /><b>GCP</b></a></td>
 </tr>
 </table>
 </center>
