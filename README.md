@@ -5,11 +5,9 @@
 We collate the information in this repository through students submissions , if anyone finds the exact content elsewhere and from other authors, please reach out to us on **info@cloudnloud.com** and we will give appropriate credits in our content.
 
 
-<p align="center"><img src="images/RealTimeUseCases.png"/></p>
-
 :information_source: &nbsp;This repo contains Huge UseCases on various Cloud,DevOps,Infrastructure and Solutions.
 
-:bar_chart: &nbsp;There are currently **50000** UseCases
+:bar_chart: &nbsp;
 
 
 :warning: &nbsp;You can use these for preparing for an interview but most of the Usecases don't represent an actual interview. Please read [FAQ page](faq.md) for more details
