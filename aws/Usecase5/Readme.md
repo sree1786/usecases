@@ -9,7 +9,7 @@ As IT employees we work on many areas ( coding,support,infrastructure ) but whil
 This video  I have explained  how to troubleshoot the issues  also . After this recording was completed I had recorded another video without troubleshooting . But I feel People need to learn how to correct the mistakes also . So I preferred to upload this video . Keep Fail and learn more 
 
 # Architecture
-![Watch the image](/Ansible-kuber.png)
+![Watch the image](/aws/Usecase5/usecase-5.png)
 
 # Pre-request's:
 
