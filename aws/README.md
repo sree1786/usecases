@@ -102,3 +102,8 @@ We collate the information in this repository through students submissions , if 
 <!-- ALL-TOPICS-LIST:END -->
 
 
+The must list
+
+Topic | What to learn | Alternatives | Description
+:------|:------|:------|:------:
+UseCase 1 | [UseCase 1](/aws/usecase1/Readme.md) | - | SNS,SQS,DynamoDB,S3,Python
