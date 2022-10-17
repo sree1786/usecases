@@ -104,6 +104,6 @@ We collate the information in this repository through students submissions , if 
 
 The must list
 
-Topic | What to learn | Alternatives | Description
+Topic | What to learn | Type of UseCase | Description
 :------|:------|:------|:------:
-UseCase 1 | [UseCase 1](/aws/Usecase1/Readme.md) | - | SNS,SQS,DynamoDB,S3,Python
+UseCase 1 | [UseCase 1](/aws/Usecase1/Readme.md) | **Integration** | SNS,SQS,DynamoDB,S3,Python 
