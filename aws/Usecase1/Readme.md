@@ -7,7 +7,7 @@ In our Daily life we are ordering food/grocery items/ clothes on an online platf
 
 # Architecture
 
-![Watch the image](/Sree-usecase-1.png)
+![Watch the image](/aws/Usecase1/usecase-1.png)
 
 # Steps
 
