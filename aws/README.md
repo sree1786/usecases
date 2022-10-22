@@ -15,3 +15,4 @@ UseCase 2 | [UseCase 2](/aws/Usecase2/Readme.md) | **Integration** | GIT,Maven,J
 UseCase 3 | [UseCase 3](/aws/Usecase3/Readme.md) | **Integration - DevOps** | GIT,Maven,Jenkins,Docker,Tomcat - CI/CD Pipeline 
 UseCase 4 | [UseCase 4](/aws/Usecase4/Readme.md) | **Integration - Using Ansible** | GIT,Maven,Jenkins,Docker,Tomcat Using Ansible
 UseCase 5 | [UseCase 5](/aws/Usecase5/Readme.md) | **Deployment - Kubernetes** | GIT,Maven,Jenkins,Docker,Tomcat,Ansible 
+UseCase 6 | [UseCase 6](/aws/Usecase6/Readme.md) | **Integration - AWS Pipeline** |
