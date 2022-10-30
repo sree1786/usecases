@@ -1,5 +1,5 @@
 
-#   USECASE-6 (Integration AWS codecommit, AWS codedeploy and Ec2 )
+#   USECASE-7 (Integration AWS codecommit, AWS codedeploy and Ec2 )
  
   
 # What you will be learn this usecase :
@@ -9,61 +9,92 @@ we will discuss what is code deploy and how its work . Use of code deployment ho
 # Architecture
 ![Watch the image](/aws/Usecase6/AWS-Pipeline.png)
 
+# What is code deploy
+ CodeDeploy is a deployment service that automates application deployments to Amazon EC2 instances, on-premises instances, serverless Lambda functions, or Amazon ECS  services.
 
 # Steps
 
 
-- Step1. Developer --> Source S3 --> codepipeline --> Destinations  s3
+- Step1. Create IAM Role
 
-- Step2. Developer  --> Code commit --> code pipeline --> S3 bucket
+- Step2. Create Ec2 instance using of IAM Role
 
-- Step3. Developer --> code commit --> different env --> final deployment
+- Step3. insatlled codedeploy agent
+
+- step4. Installation Nginx in EC2 server
+
+- Step4. Deploy code using of codedeploy to Ec2 
+
+- step5: Create the repository in codecommit
 
 
-
-
-
-# Step 1)  How we create pipeline s3 to  s3 ( Developer --> Source S3 --> codepipeline --> Destinations  s3 )
+# Step 1 :  Create IAM Role
         
-   a. Create two buckets with different names , One should be source and another one destination bucket.
+   Search IAM --> Roles --> Create Role --> click AWS service & Use case Ec2 --> permission policies (code deploy) --> select AmazonEC2RoleforAWSCodeDeploy  --> Next -->Role Details ( Rolename) --> Create Role 
         
-   b. For source bucket  just enable the bucket version and the remaining will be the default setting .
-        
-   c. Uploaded error.html and index.html pages in source bucket as zip format.
 
-   d. Create a destination bucket and enable public level access and version then remain as default
-        
-   e. Once created destination then  enable static website hosting on destination bucket and update index document --> index.html and Error document error.html
+#  step 2 : Create Ec2 instance using of IAM Role
 
-   f. Create code pipeline --> pipeline name --> remain default --> source provider  ( Amazon s3 ) --> bucket name ( source backet name ) --> S3 object key ( zip            file fullname like mywebsite.zip what we uploaded in s3) --> build stage(skip) --> 
-      add deploy stage (amazon s3 & bucket name & enable extract before        deploy)--> create pipeline
+ Serach Ec2 --> Launch instance --> instance name  --> OS --> default remaining --> select create IAM --> create instance  
 
-   g. Go to the destination bucket and check the files and http://S3 static name/Bucket foldername
+# step 3. insatlled codedeploy agent
 
-   h. If you change the code and reupload automatically rerun
-   
+  ```
+sudo yum update -y
 
-#  step 2 )How to upload & deploy  the code use of codecommit and S3 bucket ( Developer  --> Code commit --> code pipeline --> S3 bucket )
+sudo yum install -y ruby wget
 
-  a. Create IAM user --> create user --> then security credential --> HTTPS Git credential for AWS code commit --> generate git credential --> download
+wget https://aws-codedeploy-eu-west-1.s3.eu-west-1.amazonaws.com/latest/install
 
-  b. Create Ec2 instance --> create two files index.html and error.html
+chmod +x ./install
 
-  c. Go to code commit in AWS gui --> create repository -> copy clone https url
+sudo ./install auto
 
-  d. Back to Ec2 instance files area --> git add . --> git commit -m " " --> git remote add origin clone url --> git push origin master ( enter downloade credential )
+```
 
-  e. create pipeline --> default config -->source ( aws commit  , repository, branch ), Skip the build stage --> deploy (s3 bucket and name and region(ireland ),             extract before deploy , canned ACl (public-read)) --> next --> create pipeline
+# Checking CodeDeploy Agent status
+```
+sudo service codedeploy-agent status
+```
+#step4. Installation Nginx in EC2 server
 
+Installing Nginx
+```
+sudo amazon-linux-extras install -y nginx1
+```
+Checking Nginx status
+```
+sudo service nginx status
+```
+Starting Nginx
+```
+sudo service nginx start
+```
+Enabling Nginx to restart on system reboot
+```
+sudo chkconfig nginx on
+```
+Creating folders for deployments
+```
+sudo mkdir -p /var/www/my-angular-project
+```
+Changing Nginx configuration
+```
+sudo nano /etc/nginx/nginx.conf
+```
 
-# step 3) Deploy the code in different environment using of code commit and code deploy (Developer --> code commit --> different env --> final deployment)
-
-  a. Copy the project in linux server and push to aws code repository using code commit
+Only change root to /var/www/my-angular-project
  
-  b. Cross on build.yaml file on our project
+Press `Ctrl + X` to exit, press `Y` to save and press `Enter` to approve.
 
-  c. Push the code to repository
 
-  e. Code pipeline --> default configuration --> source code ( aws code commit , repo: mywebsite ,branch : master ) remain default--> build ( select code build ,            create project --> projectname: --> OS : ubuntu -->runtime stand --> img version -->env --> remain default --> continue pipeline -->next --> deploy provide: s3        and bucket name , exact before deploy -->Connect ACl(public read)--> create pipeline
+Restart Nginx
+```
+sudo service nginx restart
+```
 
-  f. Add one more environment --> edit the action --> fill required details
+#step5: Create the repository in codecommit
+
+Please find attachment of code 
+
+
