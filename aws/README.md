@@ -17,3 +17,4 @@ UseCase 4 | [UseCase 4](/aws/Usecase4/Readme.md) | **Integration - Using Ansible
 UseCase 5 | [UseCase 5](/aws/Usecase5/Readme.md) | **Deployment - Kubernetes** | GIT,Maven,Jenkins,Docker,Tomcat,Ansible 
 UseCase 6 | [UseCase 6](/aws/Usecase6/Readme.md) | **Integration - AWS Pipeline** | AWS codecommit, AWS Pipeline and S3
 UseCase 7 | [UseCase 7](/aws/Usecase7/Readme.md) | **Integration** | AWS codecommit, AWS codedeploy,S3 Attach and Ec2
+UseCase 8 | [UseCase 8](/aws/Usecase8/Readme.md) | **Deployment** | Different Tyeps of deployment
